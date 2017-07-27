@@ -7,19 +7,18 @@
 // Paddings
 .padded {
   padding-top: 5em;
-  padding-bottom: 5em;
 }
 
-// Backgrounds
-.bg-text {
-  background: #4a4a4a;
+
+body {
+  color: white;
 }
-.bg-email {
-  background: #aeaeae;
-}
-.bg-twitter {
-  background: #00a3e1;
-}
-.bg-facebook {
-  background: #3b5998;
-}
+
+// body {
+//   overflow: hidden;
+// }
+
+// .background {
+//   position: relative;
+//   min-width: 100%;
+// }
