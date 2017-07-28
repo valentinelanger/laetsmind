@@ -5,6 +5,8 @@
 
 .call-to-scroll {
   height: 60px;
-  color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
