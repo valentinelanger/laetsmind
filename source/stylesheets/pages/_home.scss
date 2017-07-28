@@ -1,12 +1,14 @@
-.brand {
-  display: block;
-  margin: 0 auto;
+#primary-section {
+  .banner {
+    height: calc(100vh - 60px);
+  }
+
+  .informations {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.call-to-scroll {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 

@@ -1,54 +1,47 @@
 ---
 title: Laetsmind
 ---
-
 <%= partial 'navbar_scroll' %>
 
-<header class="panelize">
-
-  <section id="page1" class="background">
-    <div class="banner-one" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("homme.jpg") %>');">
+<div id="fullpage">
+  <section id="primary-section" data-anchor="section-1" class="section">
+    <div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("homme.jpg") %>');">
       <div class="center brand"><%= image_tag "logo_laetsmind.png" %></div>
-      <h2 class="text-center">Créateur de solutions pédagogiques</h2></div>
+      <h3 class="text-center">Créateur de solutions pédagogiques</h3>
     </div>
-    <div class="pink call-to-scroll text-center">
+    <div class="informations pink text-center">
       <p>Que faisons-nous plus précisément?</p>
     </div>
   </section>
 
-  <section id="page2" class="background">
-    <div class="pink fond">
+  <section data-anchor="section-2" class="section">
+    <div class="all-center wrapper-full-height pink">
       <div class="icons">
         <div class="ampoule"><%= image_tag "ampoule_white.png" %></div>
         <div class="icons-red"><%= image_tag "icones_rouge.png" %></div>
       </div>
-      <h3 class="content-one">Nous accompagnons votre organisation dans la formation de ses collaborateurs à travers des outils numériques personnalisés.</h3>
+      <p class="content-one">Nous accompagnons votre organisation dans la formation continue de ses membres à travers des outils numériques personnalisés.</p>
     </div>
   </section>
 
-  <section id="page3" class="background">
-    <div class="banner-two" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("femme.jpg") %>');">
-        <div class="content-brain"><%= image_tag "the_brain.png" %></div>
-        <h3 class="content">En créant des formations et des outils selon vos besoins.</h3>
+  <section data-anchor="section-3" class="section">
+    <div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("femme.jpg") %>');">
+      <div class="content-brain"><%= image_tag "the_brain.png" %></div>
+      <h3 class="content">En créant des formations et des outils selon vos besoins.</h3>
     </div>
   </section>
 
-  <section id="page4" class="background">
-      <div class="orange fond">
-        <h3 class="content">Et nous proposons également des Moocs grand public et des Moocs personnalisés.</h3>
-      </div>
-  </section>
-
-  <section id="page5" class="background">
-    <div class="blue fond">
-      <div class="text-center">
-        <h3>Un projet? Une question? Une envie?</h3>
-        <div class='button'>contactez-nous</div>
-      </div>
+  <section data-anchor="section-4" class="section">
+    <div class="all-center wrapper-full-height orange">
+      <h3 class="content">Et nous proposons également des Moocs grand public et des Moocs personnalisés.</h3>
     </div>
   </section>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
-    <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-    <script src="javascripts/index.js"></script>
-</header>
+  <section data-anchor="section-5" class="section">
+    <div class="all-center wrapper-full-height blue text-center">
+      <p>Un projet? Une question? Une envie?</p>
+      <div class='button'>contactez-nous</div>
+    </div>
+  </section>
+</div>
+
