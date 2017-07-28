@@ -29,25 +29,26 @@
 
 .content-one {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 10%;
   right: 10%;
 }
 
-.content {
+.content-two {
   position: absolute;
-  top: 30%;
+  top: 38%;
   left: 10%;
   right: 10%;
 }
 
-
-
-.blue h3 {
-  padding-bottom: 20px;
-  font-size: 20px;
+.content-three {
+  margin-top: 170px;
+  margin-left: 70px;
+  h3 {
+    margin-left: 0px;
+    margin-bottom: 22px;
+  }
 }
-
 
 .orange {
   background-color: $orange;
@@ -55,9 +56,17 @@
 
 .blue {
   background-color: $blue;
+}
+
+.content-blue {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.blue h3 {
+  padding-bottom: 42px;
 }
 
 .background {
@@ -65,27 +74,26 @@
   width: 100%;
 }
 
-
 .icons {
   position: relative;
 }
 
 .ampoule {
   position: absolute;
-  bottom: -445px;
-  left: 110px;
+  bottom: -70px;
+  left: -540px;
 }
 
 .icons-red {
   position: absolute;
-  bottom: -445px;
-  left: 125px;
+  bottom: -70px;
+  left: -525px;
 }
 
 .content-brain {
   position: absolute;
-  right: 325px;
-  top: 290px;
+  right: 240px;
+  top: 330px;
   img {
   width: 140px;
   }
