@@ -7,3 +7,87 @@
   background-size: cover !important;
   color: white;
 }
+
+.pink {
+  background-color: $pink;
+}
+
+.fond {
+  height: 130vh;
+  position: relative;
+}
+
+.banner-two {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover !important;
+  color: white;
+}
+
+.content-one {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+}
+
+
+
+.blue h3 {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+
+.orange {
+  background-color: $orange;
+}
+
+.blue {
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+}
+
+
+.icons {
+  position: relative;
+}
+
+.ampoule {
+  position: absolute;
+  bottom: -445px;
+  left: 110px;
+}
+
+.icons-red {
+  position: absolute;
+  bottom: -445px;
+  left: 125px;
+}
+
+.content-brain {
+  position: absolute;
+  right: 325px;
+  top: 290px;
+  img {
+  width: 140px;
+  }
+}
+

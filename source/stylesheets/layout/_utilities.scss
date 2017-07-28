@@ -13,8 +13,6 @@ body {
   padding-top: 5em;
 }
 
-
-
 // Wrappers
 .wrapper-full-height {
   height: 100%;
@@ -28,6 +26,15 @@ body {
 
 .pink {
   background-color: $pink;
+}
+
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-weight: lighter;
 }
 
 .orange {
