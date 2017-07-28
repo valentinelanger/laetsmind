@@ -1,8 +1,11 @@
 ---
 title: Laetsmind
 ---
+
+<%= partial 'navbar_scroll' %>
+
 <div id="fullpage">
-  <section id="primary-section" class="section">
+  <section id="primary-section" data-anchor="section-1" class="section">
     <div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("homme.jpg") %>');">
       <div class="center brand"><%= image_tag "logo_laetsmind.png" %></div>
       <h3 class="text-center">Créateur de solutions pédagogiques</h3>
@@ -12,25 +15,25 @@ title: Laetsmind
     </div>
   </section>
 
-  <section class="section">
+  <section data-anchor="section-2" class="section">
     <div class="all-center wrapper-full-height pink">
       <p class="text-center">Nous accompagnons votre organisation dans la formation continue de ses membres à travers des outils numériques personnalisés.</p>
     </div>
   </section>
 
-  <section class="section">
+  <section data-anchor="section-3" class="section">
     <div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("femme.jpg") %>');">
       <h3 class="">En co-créant avec vous des formations selon vos besoins.</h3>
     </div>
   </section>
 
-  <section class="section">
+  <section data-anchor="section-4" class="section">
     <div class="all-center wrapper-full-height orange">
       <p>Et nous proposons également des MOOCS toute l'année.</p>
     </div>
   </section>
 
-  <section class="section">
+  <section data-anchor="section-5" class="section">
     <div class="all-center wrapper-full-height blue">
       <p>Un projet? Une question? Une envie?</p>
       <button>contactez-nous</button>
