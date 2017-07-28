@@ -1,10 +1,9 @@
-.brand {
-  display: block;
-  margin: 0 auto;
-}
+#primary-section {
+  .banner {
+    height: calc(100vh - 60px);
+  }
 
-.call-to-scroll {
-  height: 60px;
-  color: white;
-  text-align: center;
+  .informations {
+    height: 60px;
+  }
 }

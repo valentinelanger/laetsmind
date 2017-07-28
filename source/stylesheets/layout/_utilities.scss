@@ -4,21 +4,36 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
+body {
+  color: white;
+}
+
 // Paddings
 .padded {
   padding-top: 5em;
 }
 
 
-body {
-  color: white;
+
+// Wrappers
+.wrapper-full-height {
+  height: 100%;
 }
 
-// body {
-//   overflow: hidden;
-// }
+.all-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
-// .background {
-//   position: relative;
-//   min-width: 100%;
-// }
+.pink {
+  background-color: $pink;
+}
+
+.orange {
+  background-color: $orange;
+}
+
+.blue {
+  background-color: $blue;
+}
