@@ -1,0 +1,49 @@
+.card {
+  height: 300px;
+  width: 90%;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+  .logo-img {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 3px 3px;
+  }
+  .cv img {
+    width: 90%;
+  }
+  .flag img {
+    width: 30px;
+  }
+  .flags {
+    position: absolute;
+    top: 15px;
+    left: 6px;
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+  }
+  .french {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  p {
+    position: absolute;
+    top: 15px;
+    left: 22%;
+    right: 5px;
+    color: $gray;
+    font-weight: normal;
+  }
+  #eco {
+    position: absolute;
+    top: 15px;
+    left: 45%;
+    right: 5px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
