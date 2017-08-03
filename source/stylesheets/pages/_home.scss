@@ -1,8 +1,12 @@
 #primary-section {
   .banner {
     height: calc(100vh - 40px);
+    .intro_container {
+      max-width: 700px;
+    }
     h2 {
-      width: 50%;
+      padding-right: 10px;
+      padding-left: 10px;
     }
     .brand img {
       width: 200px;
@@ -21,5 +25,3 @@
     }
   }
 }
-
-

@@ -1,0 +1,73 @@
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+     }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes animIntro {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+     }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animBrain {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) scale(1,1);
+     }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(2,2);
+  }
+}
+
+
+#fullpage .active .content-brain {
+  animation: animBrain .7s;
+  transform: scale(2);
+}
+
+#fullpage .active .ampoule {
+  animation: fadein 0.7s;
+}
+
+#fullpage .active .icons-red {
+  transition-delay: .24s;
+  animation: fadein 0.7s;
+}
+
+#fullpage .card {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: opacity cubic-bezier(.165,.84,.44,1) 0.7s, transform cubic-bezier(.165,.84,.44,1) 0.7s;
+}
+
+#fullpage .active .card {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+#fullpage .one {
+  transition-delay: 0.08s;
+}
+
+#fullpage .two {
+  transition-delay: 0.16s;
+}
+
+
+
+#fullpage .active .intro_container {
+  transition-delay: 0.08s;
+  animation: animIntro 1s;
+}
