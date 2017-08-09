@@ -8,11 +8,6 @@ body {
   color: white;
 }
 
-// Paddings
-.padded {
-  padding-top: 5em;
-}
-
 // Wrappers
 .wrapper-full-height {
   height: 100%;
@@ -28,14 +23,6 @@ body {
   background-color: $pink;
 }
 
-h2 {
-  font-size: 42px;
-}
-
-h3 {
-  font-size: 36px;
-  margin-left: 10px;
-}
 
 .orange {
   background-color: $orange;
@@ -45,5 +32,22 @@ h3 {
   background-color: $blue;
 }
 
+@media(min-width: 720px) {
+  h2 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 36px;
+    margin-left: 10px;
+  }
+}
 
+@media(max-width: 720px) {
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
 
