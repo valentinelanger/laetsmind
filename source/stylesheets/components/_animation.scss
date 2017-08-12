@@ -23,18 +23,17 @@
 @keyframes animBrain {
   0% {
     opacity: 0;
-    transform: translateX(-100px) scale(1,1);
+    transform: translateX(-100px);
      }
   100% {
     opacity: 1;
-    transform: translateX(0) scale(2,2);
+    transform: translateX(0);
   }
 }
 
 
 #fullpage .active .content-brain {
   animation: animBrain .7s;
-  transform: scale(2);
 }
 
 #fullpage .active .ampoule {
@@ -64,7 +63,6 @@
 #fullpage .two {
   transition-delay: 0.16s;
 }
-
 
 
 #fullpage .active .intro_container {

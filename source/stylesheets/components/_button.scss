@@ -13,3 +13,9 @@
     color: white;
   }
 }
+
+@media(max-width: 720px) {
+  .button {
+    font-size: 18px;
+  }
+}

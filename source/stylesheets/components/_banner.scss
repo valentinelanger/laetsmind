@@ -1,62 +1,152 @@
 .banner {
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-size: cover !important;
-  color: white;
 }
 
-.pink {
-  background-color: $pink;
-}
-
-.fond {
-  height: 130vh;
-  position: relative;
-}
-
-.banner-two {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover !important;
-  color: white;
+// This is the css for the background pink et img ampoule et deco
+.grid {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 610px 1fr 15%;
+  grid-template-rows: 15% 300px 1fr 1fr;
 }
 
 .content-one {
-  position: absolute;
-  top: 60%;
-  left: 10%;
-  right: 10%;
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 2;
 }
 
-.content-two {
+.icons {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  position: relative;
+  .ampoule {
   position: absolute;
-  top: 38%;
-  left: 10%;
-  right: 10%;
-}
-
-.content-three {
-  margin-top: 170px;
-  margin-left: 70px;
-  h3 {
-    margin-left: 0px;
-    margin-bottom: 22px;
+  }
+  .icons-red {
+    position: absolute;
+    bottom: -165px;
+    left: 7px;
   }
 }
 
-.orange {
-  background-color: $orange;
+// This is the css for the banner with lady and img brain
+.grid2 {
+  min-height: 100vh;
+  background-size: cover !important;
+  display: grid;
+  grid-template-columns: 10% 25% 25% 25% 15%;
+  grid-template-rows: 33.3% 16.7% 16.7% 33.3%;
+}
+.content-two {
+  margin-top: auto;
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 3;
 }
 
-.blue {
-  background-color: $blue;
+.content-brain {
+  grid-row: 3 / span 1;
+  grid-column: 4 / span 1;
+  position: relative;
+  img {
+    position: absolute;
+    right: 0;
+    width: 140px;
+  }
 }
+
+// This is css for orange background and mooc cards
+.grid3 {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 25% 25% 25% 15%;
+  grid-template-rows: 33.3% 1fr 300px 1fr;
+}
+.content-three {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 3;
+}
+.one {
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 1;
+}
+.two {
+  grid-row: 3 / span 1;
+  grid-column: 3 / span 1;
+}
+
+
+// grids for mobile
+@media(max-width: 720px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 300px 1fr 1fr;
+  }
+  .content-one {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    margin-right: 30px;
+  }
+  .icons {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+  .grid2 {
+    background-position: center center;
+    background-size: cover !important;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .content-two {
+    grid-row: 2 / span 1 !important;
+    grid-column: 2 / span 1 !important;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .content-brain {
+    grid-row: 3 / span 1 !important;
+    grid-column: 2 / span 1 !important;
+    img {
+      position: relative !important;
+    }
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 20% 40% 40%;
+  }
+  .content-three {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+  .one {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+  }
+  .two {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+  }
+  .card {
+    height: 250px !important;
+    margin-left: 0 !important;
+  }
+  .content-blue h3 {
+    margin-left: 70px;
+    text-align: left;
+  }
+  .banner h2 {
+    margin-left: 70px;
+    text-align: left;
+  }
+}
+
 
 .content-blue {
   display: flex;
@@ -65,37 +155,12 @@
   flex-direction: column;
 }
 
-.blue h3 {
-  padding-bottom: 42px;
-}
-
 .background {
   position: relative;
   width: 100%;
 }
 
-.icons {
-  position: relative;
-}
 
-.ampoule {
-  position: absolute;
-  bottom: -70px;
-  left: -540px;
-}
 
-.icons-red {
-  position: absolute;
-  bottom: -70px;
-  left: -525px;
-}
 
-.content-brain {
-  position: absolute;
-  right: 250px;
-  top: 355px;
-  img {
-    width: 70px;
-  }
-}
 
