@@ -19,17 +19,24 @@ body {
   justify-content: center;
 }
 
-.pink {
-  background-color: $pink;
-}
+// .pink {
+//   background-color: $pink;
+// }
 
 
 .orange {
   background-color: $orange;
 }
 
+.pink {
+  background-color: $red2;
+}
+
 .blue {
   background-color: $blue;
+  h3 {
+    padding-bottom: 42px;
+  }
 }
 
 @media(min-width: 720px) {

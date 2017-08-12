@@ -17,49 +17,43 @@ title: Laetsmind
   </section>
 
   <section data-anchor="presentation" class="section">
-    <div class="all-center wrapper-full-height pink">
-      <div class="icons hidden-xs">
+    <div class="all-center wrapper-full-height pink grid">
+      <div class="icons">
+        <div class="icons-red hidden-xs"><%= image_tag "icones_rouge2.png" %></div>
         <div class="ampoule"><%= image_tag "ampoule_white.png" %></div>
-        <div class="icons-red"><%= image_tag "icones_rouge.png" %></div>
       </div>
       <h3 class="content-one">Nous accompagnons votre organisation dans la formation de ses collaborateurs à travers des outils numériques personnalisés.</h3>
     </div>
   </section>
 
   <section data-anchor="formation" class="section">
-    <div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("femme.jpg") %>');">
-      <div class="content-brain"><%= image_tag "the_brain.png" %></div>
+    <div class="grid2" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url('<%= image_path("femme.jpg") %>');">
       <h3 class="content-two">En créant des formations et des outils selon vos besoins.</h3>
+      <div class="content-brain"><%= image_tag "the_brain.png" %></div>
     </div>
   </section>
 
   <section data-anchor="mooc" class="section">
-    <div class="all-center wrapper-full-height orange">
-      <div class="content-three">
-        <h3>Nous proposons également des Moocs grand public et des Moocs personnalisés.</h3>
+    <div class="all-center wrapper-full-height orange grid3">
 
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="card one">
-              <div class="flag french"><%= image_tag "french.png" %></div>
-              <p>7 semaines pour trouver le job de ses rêves</p>
-              <div class="logo-img"><%= image_tag "mooc7_good.png" %></div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card two">
-              <div class="flags">
-                <div class="flag"><%= image_tag "french.png" %></div>
-                <div class="flag"><%= image_tag "china.png" %></div>
-                <div class="flag"><%= image_tag "england.png" %></div>
-              </div>
-              <p id="eco">Eco-conception et recyclage</p>
-              <div class="logo-img cv text-center"><%= image_tag "card23.png" %></div>
-            </div>
-          </div>
+        <h3 class="content-three">Nous proposons également des Moocs grand public et des Moocs personnalisés.</h3>
+
+        <div class="card one">
+          <div class="flag french"><%= image_tag "french.png" %></div>
+          <p>7 semaines pour trouver le job de ses rêves</p>
+          <div class="logo-img"><%= image_tag "mooc7_good.png" %></div>
         </div>
 
-      </div>
+        <div class="card two">
+          <div class="flags">
+            <div class="flag"><%= image_tag "french.png" %></div>
+            <div class="flag"><%= image_tag "china.png" %></div>
+            <div class="flag"><%= image_tag "england.png" %></div>
+          </div>
+          <p id="eco">Eco-conception et recyclage</p>
+          <div class="logo-img cv text-center"><%= image_tag "card23.png" %></div>
+        </div>
+
     </div>
   </section>
 
